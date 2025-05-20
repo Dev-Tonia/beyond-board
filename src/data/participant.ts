@@ -1,0 +1,298 @@
+export const participants = [
+  {
+    id: 1,
+    name: "Participant 1",
+    image: "/img/participants/participant-1.png",
+    quote: "“STARTING ALL OVER AGAIN”",
+    careerBefore: "Special education need coordinator ",
+    careerAfter: "Personal Care Assistant",
+    from: "Nigeria",
+  },
+  {
+    id: 2,
+    name: "Participant 2",
+    image: "/img/participants/participant-2.png",
+    quote:
+      "“BEING BLACK WAS PERCEIVED AS A MARKER OF INCOMPETENCE UNTIL PROVEN OTHERWISE”",
+    careerBefore: "Chartered Accountant ",
+    careerAfter: "Cyber Accountant/IT Auditor",
+    from: "Ghana",
+  },
+  {
+    id: 3,
+    name: "Participant 3",
+    image: "/img/participants/participant-3.png",
+    quote:
+      "“I AM POORER IN AMERICA THAN I WAS IN NIGERIA, EMOTIONALLY AND PROFESSIONALLY”",
+    careerBefore: "Chief Hospital Administrator  ",
+    careerAfter: "Program Coordinator, Disability Services ",
+    from: "Nigeria",
+  },
+  {
+    id: 4,
+    name: "Participant 4",
+    image: "/img/participants/participant-4.png",
+    quote:
+      "“UNRECOGNIZED FOREIGN QUALIFICATIONS FORCE IMMIGRANTS TO START FROM SCRATCH”",
+    careerBefore: "Lecturer",
+    careerAfter: "Phd Student",
+    from: "Nigeria",
+  },
+  {
+    id: 5,
+    name: "Participant 5",
+    image: "/img/participants/participant-5.png",
+    quote:
+      "“CREDENTIAL RECOGNITION WAS FAIR... BUT THE U.S. BOARD EXAMS REQUIRED A WHOLE NEW KIND OF ADJUSTMENT”",
+    careerBefore: "Physiotherapist ",
+    careerAfter: "Physical Therapist",
+    from: "Nigeria",
+  },
+  {
+    id: 6,
+    name: "Participant 6",
+    image: "/img/participants/participant-6.png",
+    quote:
+      "“I SEE THIS PHASE AS SURVIVAL MODE... BUT I’M BUILDING SOMETHING NEW—SOMETHING MINE.”",
+    careerBefore: "Communications, Government relations ",
+    careerAfter: "Caregiver, Direct Support Professional, Business owner",
+    from: "Nigeria",
+  },
+  {
+    id: 7,
+    name: "Participant 7",
+    image: "/img/participants/participant-7.png",
+    quote:
+      "“MY ADMINISTRATIVE ASSISTANT ROLE REQUIRES A HIGH SCHOOL DIPLOMA, MAKING MY PHD OVERQUALIFICATION STARKLY EVIDENT”",
+    careerBefore: "Lecturer   ",
+    careerAfter: "Adjunct Lecturer, Administrative Assistant",
+    from: "Nigeria",
+  },
+  {
+    id: 8,
+    name: "Participant 8",
+    image: "/img/participants/participant-8.png",
+    quote:
+      "“ONLY A LIMITED SET OF MY SKILLS ARE BEING APPLIED... MY CORE IT AND FINANCE EXPERTISE REMAIN LARGELY UNTAPPED”",
+    careerBefore: " Finance Manager IT Industry  ",
+    careerAfter: "Direct Support Professional ",
+    from: "Nigeria",
+  },
+  {
+    id: 9,
+    name: "Participant 9",
+    image: "/img/participants/participant-9.png",
+    quote: "“I’M NOT REALLY FULLY USING ALL MY POTENTIALS”",
+    careerBefore: "Financial Controller",
+    careerAfter: " Healthcare Worker ",
+    from: "Nigeria",
+  },
+  {
+    id: 10,
+    name: "Participant 10",
+    image: "/img/participants/participant-10.png",
+    quote:
+      "“I EXPECTED TO FIND AN OFFICE JOB... I ENDED UP WASHING BOTTLES IN A FACTORY”",
+    careerBefore: "Marketing and Sales ManagerAccountant ( Public service)  ",
+    careerAfter: "House Manager(Health care Sector) ",
+    from: "Nigeria",
+  },
+  {
+    id: 11,
+    name: "Participant 11",
+    image: "/img/participants/participant-11.png",
+    quote:
+      "“SUCCESS IS INTERNAL, NOT EXTERNAL... MINDSET, ATTITUDE, AND PERSONAL INITIATIVE ARE THE TRUE DETERMINANTS OF SUCCESS”",
+    careerBefore: "IT(Network Engineer)  ",
+    careerAfter: "Cyber Security Specialist",
+    from: "Nigeria",
+  },
+  {
+    id: 12,
+    name: "Participant 12",
+    image: "/img/participants/participant-12.png",
+    quote: "“WHEREVER YOU FIND YOURSELF, MAKE AN IMPACT”",
+    careerBefore: " Principal Lecturer ",
+    careerAfter: "Direct Support Professional ",
+    from: "Nigeria",
+  },
+  {
+    id: 13,
+    name: "Participant 13",
+    image: "/img/participants/participant-13.png",
+    quote:
+      "“ACCENT IS NOT A BARRIER TO COMPETENCE. MY COMMITMENT IS TO SPEAK GRAMMATICALLY CORRECT ENGLISH, NOT MIMIC ACCENTS”",
+    careerBefore: "Chief Lecturer ",
+    careerAfter: "Security and Law Enforcement Roles",
+    from: "Nigeria",
+  },
+  {
+    id: 14,
+    name: "Participant 14",
+    image: "/img/participants/participant-14.png",
+    quote: "“IT’S A COMPLETE OPPOSITE COMPARED TO WHERE I WAS COMING FROM”",
+    careerBefore: "Administrative Officer, Project Manager",
+    careerAfter: "Small Business Owner, Uber, Lyft driver limit",
+    from: "Ghana",
+  },
+  {
+    id: 15,
+    name: "Participant 15",
+    image: "/img/participants/participant-15.png",
+    quote: "“FOR ME, HERE AND NIGERIA ARE ALMOST THE SAME”",
+    careerBefore: "Financial Controller ",
+    careerAfter: "Uber/Lyft driver",
+    from: "Nigeria",
+  },
+  {
+    id: 16,
+    name: "Participant 16",
+    image: "/img/participants/participant-16.png",
+    quote:
+      "“NO EXPERIENCE IS EVER WASTED... I CONFIRM THAT MY PROJECT MANAGEMENT SKILLS ARE FULLY UTILIZED NOW”",
+    careerBefore: "Business Consultant   ",
+    careerAfter: " Project Manager",
+    from: "Nigeria",
+  },
+  {
+    id: 17,
+    name: "Participant 17",
+    image: "/img/participants/participant-17.png",
+    quote:
+      "“IMMIGRANTS MUST LEARN TO ‘READ THE ROOM,’ WORK HARDER THAN PEERS, AND MANAGE EMOTIONAL REACTIONS STRATEGICALLY”",
+    careerBefore: "Physician  ",
+    careerAfter:
+      "Physician, Assistant Professor, Board Certification in Anesthesiology.",
+    from: "Ghana",
+  },
+  {
+    id: 18,
+    name: "Participant 18",
+    image: "/img/participants/participant-18.png",
+    quote: "“IT'S LIKE USING ONE OUT OF TEN OF MY SKILLS”",
+    careerBefore: " Marketing and Sales Manager ",
+    careerAfter: "Community Coach",
+    from: "Nigeria",
+  },
+  {
+    id: 19,
+    name: "Participant 19",
+    image: "/img/participants/participant-19.png",
+    quote:
+      "“I FELT PROFESSIONALLY BOXED IN. MY NIGERIAN TRAINING WAS BROAD; NOW I MOSTLY HANDLE ACCOUNTS PAYABLE”",
+    careerBefore: "Accountant  ",
+    careerAfter: "Accountant Supervisor",
+    from: "Nigeria",
+  },
+  {
+    id: 20,
+    name: "Participant 20",
+    image: "/img/participants/participant-20.png",
+    quote:
+      "“THE ENERGY INVESTED IN SOCIAL GATHERINGS COULD BE BETTER CHANNELLED INTO MENTORSHIP, REFERRALS, AND RESOURCE-SHARING NETWORKS.”",
+    careerBefore: "Network Operations Manager  ",
+    careerAfter: "Undisclosed",
+    from: "Nigeria",
+  },
+  {
+    id: 21,
+    name: "Participant 21",
+    image: "/img/participants/participant-21.png",
+    quote:
+      "“AFRICAN IMMIGRANTS NEED STRONGER, MORE PURPOSEFUL COMMUNITY NETWORKS”",
+    careerBefore: "Research Assistant",
+    careerAfter: "Health Physicist ",
+    from: "Ghana",
+  },
+  {
+    id: 22,
+    name: "Participant 22",
+    image: "/img/participants/participant-22.png",
+    quote: "“IF THERE'S ANYTHING BELOW UNDERUTILIZED, THAT IS WHAT IT IS”",
+    careerBefore: "Legal Practitioner",
+    careerAfter: " Community Coach 3 Years ",
+    from: "Nigeria",
+  },
+  {
+    id: 23,
+    name: "Participant 23",
+    image: "/img/participants/participant-23.png",
+    quote:
+      "“MOST IMMIGRANTS ONLY SUCCEED IF THEY MEET THE RIGHT PEOPLE AT THE RIGHT TIME”",
+    careerBefore: "Sales Manager ",
+    careerAfter: "Cyber Security Coordinator ",
+    from: "Nigeria",
+  },
+  {
+    id: 24,
+    name: "Participant 24",
+    image: "/img/participants/participant-24.png",
+    quote:
+      "“OUR JOB TITLES MAY NOT TRANSLATE, BUT OUR SKILLS DO. WE JUST NEED HELP MAKING THE LANGUAGE SHIFT”",
+    careerBefore: "Project coordinator/Administrative Executive ",
+    careerAfter: "Technical Project ManagerSoftware Engineer",
+    from: "Nigeria",
+  },
+  {
+    id: 25,
+    name: "Participant 25",
+    image: "/img/participants/participant-25.png",
+    quote:
+      "“WHEN PEOPLE KNOW YOU CAN SOLVE PROBLEMS FOR THEM, IT DOESN’T MATTER HOW YOU SOUND OR LOOK”",
+    careerBefore: "Accountant ",
+    careerAfter: "Accountant",
+    from: "Nigeria",
+  },
+  {
+    id: 26,
+    name: "Participant 26",
+    image: "/img/participants/participant-26.png",
+    quote:
+      "“IF WE HELP EACH OTHER WHEN THEY NEWLY ARRIVE… IT BUILDS A BETTER NIGERIAN COMMUNITY IN THE DIASPORA, AND IT REFLECTS BACK ON NIGERIA AS A WHOLE”",
+    careerBefore: " Medical Doctor ",
+    careerAfter: " Clinical Quality Specialist ",
+    from: "Nigeria",
+  },
+  {
+    id: 27,
+    name: "Participant 27",
+    image: "/img/participants/participant-27.png",
+    quote:
+      "“PROVIDING IS WHERE I FIND SOLACE… WHEN I COULDN’T DO THAT, IT AFFECTED ME DEEPLY”",
+    careerBefore: "Business Owner ",
+    careerAfter:
+      "Direct Support Professional, Contractual Site Reliability Engineer",
+    from: "Nigeria",
+  },
+  {
+    id: 28,
+    name: "Participant 28",
+    image: "/img/participants/participant-28.png",
+    quote: "“SINCE I CAN’T GET WHAT I WANTED, I HAVE TO GO FOR AN ALTERNATIVE”",
+    careerBefore: "Accountant, School Proprietor    ",
+    careerAfter: "Direct Support Professional",
+    from: "Nigeria",
+  },
+  {
+    id: 29,
+    name: "Participant 29",
+    image: "/img/participants/participant-29.png",
+    quote: "“I WASN’T CHASING SURVIVAL; I WAS CHASING PURPOSE”",
+    careerBefore: " Technical writing, media, journalism ",
+    careerAfter: "Professor and E- learning Developer Security Guard 7-Ph",
+    from: "Ghana",
+  },
+  {
+    id: 30,
+    name: "Participant 30",
+    image: "/img/participants/participant-30.png",
+    quote:
+      "“DESPITE THE ACCENT DISCRIMINATION AND FUNDING BIAS, I’VE USED ALMOST 90% OF MY SKILLS IN THIS ROLE”",
+    careerBefore: "Teacher ",
+    careerAfter: "Research Associate",
+    from: "Nigeria",
+  },
+];
+export function getParticipants(count: number = 6) {
+  return participants.slice(0, count);
+}

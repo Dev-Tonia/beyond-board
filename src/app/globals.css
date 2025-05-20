@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  /* custom font */
+  --font-georgian: "Noto Sans Georgian", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-cabin: "Cabin", sans-serif;
+  --font-lato: "Lato", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
+
+  /* custom colors */
+  --color-primary: #237a15;
+  --color-tertiary: #3e5e3e;
+  --color-secondary: #fdca40;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+  }
+}
+
+.wrapper {
+  @apply w-[88%] mx-auto font-cabin font-normal;
+}
+
+/* body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
