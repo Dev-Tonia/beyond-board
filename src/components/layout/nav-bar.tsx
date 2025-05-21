@@ -39,7 +39,6 @@ export default function NavBar({
             Stories of highly educated Africa <br /> immigrants in America
           </h1>
         </div>
-
         {/* Hamburger Menu Button */}
         <button
           className="lg:hidden text-white p-2"
@@ -68,7 +67,6 @@ export default function NavBar({
             )}
           </svg>
         </button>
-
         {/* Desktop Navigation */}
         <ul className="hidden lg:flex 2xl:gap-2">
           {navList.map(({ title, href }) => (
@@ -81,8 +79,8 @@ export default function NavBar({
             />
           ))}
         </ul>
-
         {/* Mobile Navigation */}
+        // Mobile Navigation
         <div
           className={clsx(
             "fixed top-[72px] right-0 h-screen w-64 bg-tertiary transform transition-transform duration-300 ease-in-out lg:hidden",
@@ -91,16 +89,14 @@ export default function NavBar({
         >
           <ul className="flex flex-col py-4">
             {navList.map(({ title, href }) => (
-              // <li key={title} className="w-full">
               <NavListTile
                 title={title}
                 key={title}
                 href={href}
                 scrolled={scrolled}
                 isHome={isHome}
-                onClick={() => setIsOpen((prev) => !prev)}
+                onClick={() => setIsOpen(false)} // Update this line
               />
-              // </li>
             ))}
           </ul>
         </div>
