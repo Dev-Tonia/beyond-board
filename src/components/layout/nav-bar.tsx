@@ -80,7 +80,6 @@ export default function NavBar({
           ))}
         </ul>
         {/* Mobile Navigation */}
-        // Mobile Navigation
         <div
           className={clsx(
             "fixed top-[72px] right-0 h-screen w-64 bg-tertiary transform transition-transform duration-300 ease-in-out lg:hidden",
