@@ -51,5 +51,5 @@ export { default as PolicyRecommendations } from "./conclusion/PolicyRecommendat
 export { default as SummaryOfPolicyRecommendations } from "./conclusion/SummaryOfPolicyRecommendations";
 export { default as Bibliography } from "./conclusion/Bibliography";
 
-export { default as AboutHero } from "./about/hero";
+export { default as Acknowledgements } from "./about/Acknowledgements";
 export { default as AboutMe } from "./about/AboutMe";

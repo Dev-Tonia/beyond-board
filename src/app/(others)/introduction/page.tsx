@@ -8,6 +8,7 @@ import {
   ResearchBasis,
   ResearchPhilosophy,
 } from "@/components";
+import CircularImages from "@/components/introduction/CircularImages";
 // import ResearchPhilosophy from "@/components/introduction/ResearchPhilosophy";
 import React from "react";
 
@@ -21,6 +22,7 @@ export default function Introduction() {
       <IntroResearchQuestions />
       <IntroductionFocusArea />
       <IntroductionResearchConducted />
+      <CircularImages />
       <IntroductionQuoteWall />
     </>
   );

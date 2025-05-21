@@ -22,8 +22,8 @@ export default function HeroSection() {
           className="object-cover w-full h-full"
         >
           <source
-            src="/video/Journey-of-Africa-Immigrant-in-US.mov"
-            type="video/quicktime"
+            src="/video/Journey-of-Africa-Immigrant-in-US.webm"
+            type="video/webm"
           />
           {/* Fallback for browsers that don't support video */}
           Your browser does not support the video tag.

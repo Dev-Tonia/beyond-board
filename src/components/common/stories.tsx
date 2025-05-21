@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import LeadingText from "../common/leading-text";
 import CustomButton from "../common/custom-button";
@@ -26,17 +25,18 @@ export default function Stories({
   const getCardColor = (index: number) => {
     return colors[index % 3]; // Rotates through the 3 colors
   };
-  const setCardAlignment = (index: number) => {
-    return index === 0 || index === 2 ? "self-end" : "";
-  };
 
-  // getting participants from data
+  // Getting participants from data
   const participants = getParticipants(6);
-  //
   const router = useRouter();
 
+  // Alternate between the two heights you already have
+  const getCardHeight = (index: number) => {
+    return (index + 1) % 2 === 0 ? "h-[610px]" : "h-[500px]";
+  };
+
   return (
-    <section className={clsx(" pt-32 pb-16", className)}>
+    <section className={clsx("pt-32 pb-16", className)}>
       <div className="wrapper">
         <div className="flex items-center justify-between">
           <LeadingText title="Stories" className={headerColor} />
@@ -48,14 +48,14 @@ export default function Stories({
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
+        {/* Masonry layout container */}
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-4 mt-12 space-y-4">
           {participants.map((participant, index) => (
-            <div className={setCardAlignment(index)} key={participant.id}>
+            <div key={participant.id} className="break-inside-avoid mb-4">
               <UserStoriesCard
-                // img={participant.img}
                 key={participant.id}
                 participant={participant}
-                cardHeight={(index + 1) % 2 === 0 ? "h-[610px]" : "h-[500px]"}
+                cardHeight={getCardHeight(index)}
                 tipColor={getCardColor(index)}
               />
             </div>
@@ -63,8 +63,8 @@ export default function Stories({
         </div>
 
         {children || (
-          <div className=" bg-secondary text-neutral-800 mx-7 mt-20 font-lato text-center py-8 px-5 italic">
-            ‘I didn’t lose myself - I just learned how to grow a new one”
+          <div className="bg-secondary text-neutral-800 mx-7 mt-20 font-lato text-center py-8 px-5 italic">
+            'I didn't lose myself - I just learned how to grow a new one"
           </div>
         )}
       </div>
