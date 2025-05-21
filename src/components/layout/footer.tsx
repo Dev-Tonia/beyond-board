@@ -40,9 +40,14 @@ export default function Footer() {
               To help improve this or future research, please share your opinion
               about this project
             </p>
-            <button className=" py-4 text-center w-fit px-5 bg-white  text-primary mt-8 font-nunito font-bold">
+            <a
+              href="https://docs.google.com/forms/d/1dYGGWYPF03cpQhwvzj9w4NbGDLIdm7xImFx8xE_uS-0/viewform?edit_requested=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" py-4 text-center w-fit px-5 bg-white  text-primary mt-8 font-nunito font-bold"
+            >
               Share Feedback
-            </button>
+            </a>
           </div>
         </div>
       </div>

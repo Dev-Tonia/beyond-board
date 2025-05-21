@@ -132,7 +132,12 @@ export default function InterviewModal({
                         <AudioPlayer audioSource={participant.audio} />
                       </div>
                     )}
-                    <button className="text-[#237A15] hover:underline flex items-center gap-1">
+                    <a
+                      href="https://docs.google.com/document/d/1qv7xSKbY8hsIWXHtCVk5tpYMZTXI8u5s/edit?tab=t.0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#237A15] hover:underline flex items-center gap-1"
+                    >
                       <svg
                         width="16"
                         height="16"
@@ -149,7 +154,7 @@ export default function InterviewModal({
                         />
                       </svg>
                       View Thematic Analysis
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

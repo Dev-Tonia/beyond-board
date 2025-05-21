@@ -29,10 +29,13 @@ export default function WhatWeDiscover() {
             <div className=" lg:w-8/12 flex items-center flex-col justify-center bg-[#FFEFC5] py-11 px-8 lg:px-12 2xl:px-16 ">
               <div className=" flex gap-3 w-full">
                 <div className="bg-[#FDE9B480] w-1/2 py-8 px-6">
-                  <MigrationChart />
+                  <MigrationChart data={[23.33, 36.67, 23.33, 16.67]} />
                 </div>
                 <div className="bg-[#FDE9B480] w-1/2 py-8 px-6">
-                  <MigrationChart />
+                  <MigrationChart
+                    title="After Migrating"
+                    data={[16.67, 43.33, 13.33, 26.67]}
+                  />
                 </div>
               </div>
               <p className="  md:text-lg  mt-4 lg:text-xl 2xl:text-2xl font-cabin text-center ">

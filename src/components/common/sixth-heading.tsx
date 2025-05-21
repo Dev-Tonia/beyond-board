@@ -5,7 +5,13 @@ export default function SixthHeading({
   title,
   className,
   textColor = "text-neutral-50",
-}: Readonly<{ title: string; className?: string; textColor?: string }>) {
+  children,
+}: Readonly<{
+  title?: string;
+  className?: string;
+  textColor?: string;
+  children?: React.ReactNode;
+}>) {
   return (
     <h6
       className={clsx(
@@ -14,7 +20,7 @@ export default function SixthHeading({
         textColor
       )}
     >
-      {title}
+      {title || children}
     </h6>
   );
 }

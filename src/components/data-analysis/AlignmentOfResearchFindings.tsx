@@ -140,6 +140,23 @@ export default function AlignmentOfResearchFindings() {
               </p>
             </div>
           </div>
+
+          {/* extrnal link */}
+          <SixthHeading
+            className=" space-x-2 mt-8"
+            textColor=" text-neutral-800"
+          >
+            <span>
+              {" "}
+              For research question analysis please follow this link:
+            </span>
+            <a
+              href="https://docs.google.com/document/d/1MRlWyacItvvA5NnWIJfFX9ZDPowoc1To/edit?usp=sharing&ouid=101093897556913123349&rtpof=true&sd=true"
+              className="text-primary font-semibold hover:underline"
+            >
+              [link]
+            </a>
+          </SixthHeading>
         </div>
       </section>
     </>

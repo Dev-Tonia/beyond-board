@@ -125,9 +125,8 @@ const InterviewReader = ({ url }: { url: string }) => {
             return (
               <div key={index}>
                 <p className="font-semibold">{item.speaker}:</p>
-                <p>
-                  <p className="mt-2">{item.text}</p>
-                </p>
+
+                <p className="mt-2">{item.text}</p>
               </div>
             );
           })}

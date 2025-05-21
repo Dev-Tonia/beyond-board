@@ -38,6 +38,14 @@ export default function Acknowledgements() {
             dedicated to the African immigrants who carry their dreams across
             borders, build new lives with strength, hope and grace.
           </p>
+          <p>
+            This project is dedicated to the African immigrants who carry their
+            dreams across borders, build new lives with strength, hope and
+            grace. Select media files used in this project including AI
+            generated participants’ images are sourced from Unsplash, Freepik,
+            and OpenAI, and are gratefully acknowledged for their contributions
+            to visual storytelling.
+          </p>
         </div>
       </div>
     </section>

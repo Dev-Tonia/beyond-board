@@ -13,7 +13,13 @@ import { Doughnut } from "react-chartjs-2";
 //  Register required Chart.js components and plugins
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
-export default function MigrationChart() {
+export default function MigrationChart({
+  title = " Before Migrating",
+  data: chartData,
+}: {
+  title?: string;
+  data?: any;
+}) {
   useEffect(() => {
     const event = new Event("resize");
     window.dispatchEvent(event);
@@ -25,7 +31,7 @@ export default function MigrationChart() {
     datasets: [
       {
         label: "Progress",
-        data: [16.67, 43.33, 13.33, 26.67],
+        data: chartData,
         backgroundColor: [
           "#F9C74F", // Education
           "#F8961E", // Healthcare
@@ -99,7 +105,7 @@ export default function MigrationChart() {
       {/* Legend and Title */}
       <div className="flex flex-col items-start -ml-20">
         <h2 className="text-md font-bold mb-2 text-black text-nowrap">
-          Before Migrating
+          {title}
         </h2>
         <div className="space-y-2 text-sm">
           <div className="flex items-center gap-2">
