@@ -37,6 +37,12 @@ export default function Acknowledgements() {
             throughout this journey. Your presence, patience, and encouragement
             sustained me in more ways than I can express.  
           </p>
+          <p className="mb-5">
+            Select media files used in this project including AI
+            generated participants’ images are sourced from Unsplash, Freepik,
+            and OpenAI, and are gratefully acknowledged for their contributions
+            to visual storytelling.
+          </p>
         </div>
         <div>
           <SixthHeading title="Dedication" textColor=" text-neutral-800" />
