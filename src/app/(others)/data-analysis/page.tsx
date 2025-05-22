@@ -45,7 +45,7 @@ export default function DataAnalysis() {
               href="https://docs.google.com/spreadsheets/d/1pcAdnFJVC62gqixoZIvV-HMIrs36VePx/edit?usp=sharing&ouid=101093897556913123349&rtpof=true&sd=true"
               className="text-primary font-semibold hover:underline"
             >
-              All Analysis Data{" "}
+              One Table Analysis Chart {" "}
             </a>
           </SixthHeading>{" "}
         </div>
