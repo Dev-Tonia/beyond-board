@@ -13,7 +13,7 @@ export default function ClosingInformationGaps() {
       <div className=" bg-black/10  px-4 py-6  space-y-5">
         <SixthHeading title="Challenge" textColor=" text-neutral-800" />
         <p>
-          Participants like Participant 25 and 23 emphasized how misinformation
+          Participants like Participants 25 and 23 emphasized how misinformation
           or a lack of support delayed their progress in career and
           credentialing pathways.
         </p>

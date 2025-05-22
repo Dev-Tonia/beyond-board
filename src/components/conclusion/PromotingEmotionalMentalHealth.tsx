@@ -13,7 +13,7 @@ export default function PromotingEmotionalMentalHealth() {
       <div className=" bg-black/10  px-4 py-6  space-y-5">
         <SixthHeading title="Challenge" textColor=" text-neutral-800" />
         <p>
-          Several participants, such as Participant 22 and 27, reported
+          Several participants, such as Participants 22 and 27, reported
           experiencing stress, depression, and emotional fatigue due to
           professional displacement and economic strain.
         </p>

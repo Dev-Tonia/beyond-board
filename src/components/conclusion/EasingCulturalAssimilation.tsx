@@ -13,7 +13,7 @@ export default function EasingCulturalAssimilation() {
       <div className=" bg-black/10  px-4 py-6  space-y-5">
         <SixthHeading title="Challenge" textColor=" text-neutral-800" />
         <p>
-          Many participants, including Participant 4 and 17, experienced
+          Many participants, including Participants 4 and 17, experienced
           miscommunications due to unfamiliarity with American workplace
           culture, resulting in exclusion or misunderstanding.
         </p>
