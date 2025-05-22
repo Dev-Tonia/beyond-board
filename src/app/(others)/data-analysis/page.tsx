@@ -8,6 +8,7 @@ import {
   ResearchFindings,
   TheoreticalAndPracticalImplications,
 } from "@/components";
+import SixthHeading from "@/components/common/sixth-heading";
 import React from "react";
 
 export default function DataAnalysis() {
@@ -35,6 +36,21 @@ export default function DataAnalysis() {
               usData={[3, 0, 4, 0, 0, 14, 5, 1, 0, 0, 0, 1, 0, 2]}
             />
           </div>
+          <SixthHeading
+            className=" space-x-2 mt-8"
+            textColor=" text-neutral-800"
+          >
+            <span>
+              {" "}
+              For research question analysis please follow this link:
+            </span>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1pcAdnFJVC62gqixoZIvV-HMIrs36VePx/edit?usp=sharing&ouid=101093897556913123349&rtpof=true&sd=true"
+              className="text-primary font-semibold hover:underline"
+            >
+              Research Question Analysis
+            </a>
+          </SixthHeading>{" "}
         </div>
       </section>
       {/* <GroupedBarChart /> */}
