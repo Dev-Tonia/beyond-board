@@ -93,7 +93,7 @@ export const participants = [
     image: "/img/participants/participant-10.png",
     quote:
       "“I EXPECTED TO FIND AN OFFICE JOB... I ENDED UP WASHING BOTTLES IN A FACTORY”",
-    careerBefore: "Marketing and Sales ManagerAccountant ( Public service)  ",
+    careerBefore: "Marketing and Sales ManagerAccountant ( Public Service)  ",
     careerAfter: "House Manager(Health care Sector) ",
     from: "Nigeria",
   },

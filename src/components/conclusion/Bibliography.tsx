@@ -63,7 +63,7 @@ const Bibliography = () => {
   return (
     <section className=" py-12 bg-[#F3F9EB]">
       <div className="wrapper">
-        <ThirdHeading title="Bibliography" textColor=" text-neutral-800" />
+        <ThirdHeading title="References" textColor=" text-neutral-800" />
         <div className="space-y-4 italic">
           {references.map((reference, index) => (
             <div key={index} className="text-gray-700 leading-relaxed">

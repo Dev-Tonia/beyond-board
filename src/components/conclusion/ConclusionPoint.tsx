@@ -95,7 +95,7 @@ export default function ConclusionPoint() {
               target="_blank"
               href="https://docs.google.com/document/d/1p4uyqfF6BO2XBPULhAbbxQKmcyr3Zyp5/edit?rtpof=true&tab=t.0"
             >
-              Project Document
+              View Project Document
             </a>
           </p>
         </div>
