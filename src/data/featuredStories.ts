@@ -47,7 +47,7 @@ export const featuredStories = [
     id: 6,
     participant: "Participant 22",
     image: "/img/participants/participant-22.png",
-    quote: "f there’s anything below underutilized, that’s what I became.",
+    quote: "If there’s anything below underutilized, that’s what I became.",
     story:
       "Back home, Participant 22 was a respected legal practitioner and conflict resolution specialist. In the U.S., she found herself unable to find employment in law practice due to expensive re-licensure. She took up short-lived jobs as a community coach. Each new job felt like a new humiliation—her education ignored, her grief invalidated, her identity slowly dimming. But beneath the hurt lies a fire: to tell her story, reclaim her profession, and fight for others like her.",
   },
