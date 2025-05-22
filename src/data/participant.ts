@@ -371,7 +371,7 @@ export const participantInterviews = [
     interviewQuestion: "/questions/INTERVIEW-txt-6.docx",
     audio: "/audios/Interview-6.m4a",
     from: "Nigeria",
-    careerBefore: "Communications, Government relations ",
+    careerBefore: "Director Government Communications",
     careerAfter: "Caregiver, Direct Support Professional, Business owner",
     link: "https://docs.google.com/document/d/1NEvGlZoXxFaMz-yXDlHpoSD8AOD5GWjhIjMinwOT_Ds/edit?tab=t.0",
   },
