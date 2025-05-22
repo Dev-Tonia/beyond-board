@@ -43,8 +43,7 @@ export default function Acknowledgements() {
             and OpenAI, and are gratefully acknowledged for their contributions
             to visual storytelling.
           </p>
-        </div>
-        <div>
+
           <SixthHeading title="Dedication" textColor=" text-neutral-800" />
           <p className="mb-5 mt-5">
             This project is dedicated to the African immigrants who carry their dreams across borders, 
