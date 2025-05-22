@@ -47,10 +47,8 @@ export default function Acknowledgements() {
         <div>
           <SixthHeading title="Dedication" textColor=" text-neutral-800" />
           <p className="mb-5 mt-5">
-            Select media files used in this project including AI
-            generated participants’ images are sourced from Unsplash, Freepik,
-            and OpenAI, and are gratefully acknowledged for their contributions
-            to visual storytelling.
+            This project is dedicated to the African immigrants who carry their dreams across borders, 
+            build new lives with strength, hope and grace.
           </p>
         </div>
       </div>
