@@ -6,7 +6,7 @@ export default function ResearchConducted() {
     <section className=" bg-[#F3F9EB] py-16">
       <div className=" wrapper">
         <SecondHeading
-          title="How Research was Conducted"
+          title="How the Research was Conducted"
           className="  max-w-xl"
           textColor="text-[#221F1F]"
         />

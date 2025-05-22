@@ -89,13 +89,13 @@ export default function ConclusionPoint() {
             increasingly interconnected and interdependent.
           </p>
           <p className=" font-bold">
-            You can read more about this study in the full document, available: 
+            Please follow the link to the project document to read more about this study: 
             <a
               className=" text-blue-600"
               target="_blank"
               href="https://docs.google.com/document/d/1p4uyqfF6BO2XBPULhAbbxQKmcyr3Zyp5/edit?rtpof=true&tab=t.0"
             >
-              Beyond Borders
+              Project Document
             </a>
           </p>
         </div>

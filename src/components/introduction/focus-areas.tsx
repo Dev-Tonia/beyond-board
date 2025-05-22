@@ -7,7 +7,7 @@ export default function FocusAreas() {
     <section className="  pt-16 lg:pt-32 pb-12 lg:pb-20">
       <div className=" wrapper ">
         <SecondHeading
-          title="Thematic focus areas"
+          title="Thematic Focus Areas"
           className=" max-w-[200px] text-neutral-800"
         />
         <div className=" grid md:grid-cols-2 gap-4 lg:gap-6">
