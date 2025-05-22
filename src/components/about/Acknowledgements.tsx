@@ -1,5 +1,6 @@
 import React from "react";
 import ThirdHeading from "../common/ThirdHeading";
+import SixthHeading from "../common/sixth-heading";
 
 export default function Acknowledgements() {
   return (
@@ -36,10 +37,11 @@ export default function Acknowledgements() {
             throughout this journey. Your presence, patience, and encouragement
             sustained me in more ways than I can express.  
           </p>
-          <p className="mb-5">
-            This project is dedicated to the African immigrants who carry their
-            dreams across borders, build new lives with strength, hope and
-            grace. Select media files used in this project including AI
+        </div>
+        <div>
+          <SixthHeading title="Dedication" textColor=" text-neutral-800" />
+          <p className="mb-5 mt-5">
+            Select media files used in this project including AI
             generated participants’ images are sourced from Unsplash, Freepik,
             and OpenAI, and are gratefully acknowledged for their contributions
             to visual storytelling.
