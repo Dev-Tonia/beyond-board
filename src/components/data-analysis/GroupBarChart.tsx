@@ -6,7 +6,19 @@ import { CategoryScale, Chart as ChartJS } from "chart.js";
 
 ChartJS.register(CategoryScale);
 
-export default function GroupedBarChart() {
+export default function GroupedBarChart({
+  africaData,
+  usData,
+  maxCount = 150,
+  stepSize = 20,
+  title,
+}: {
+  africaData: number[];
+  usData: number[];
+  maxCount?: number;
+  stepSize?: number;
+  title: string;
+}) {
   const chartRef = useRef<HTMLCanvasElement>(null);
   const chartInstance = useRef<Chart | null>(null);
 
@@ -42,7 +54,7 @@ export default function GroupedBarChart() {
             datasets: [
               {
                 label: "In Africa",
-                data: [150, 0, 90, 35, 25, 25, 0, 0, 0, 15, 0, 2, 15, 0],
+                data: africaData,
                 backgroundColor: "#FFB800", // Yellow color
                 borderRadius: {
                   topLeft: 4,
@@ -54,7 +66,7 @@ export default function GroupedBarChart() {
               },
               {
                 label: "In U.S.",
-                data: [20, 10, 35, 0, 0, 0, 105, 35, 8, 15, 0, 0, 0, 15],
+                data: usData,
                 backgroundColor: "#FF6B00", // Orange color
                 borderRadius: {
                   topLeft: 4,
@@ -81,7 +93,7 @@ export default function GroupedBarChart() {
               },
               title: {
                 display: true,
-                text: "Stacked Bar Chart: Total Years Of Experience By Profession (Africa And U.S.)",
+                text: title,
                 font: {
                   size: 16,
                   weight: "bold",
@@ -113,9 +125,9 @@ export default function GroupedBarChart() {
               },
               y: {
                 beginAtZero: true,
-                max: 160,
+                max: maxCount,
                 ticks: {
-                  stepSize: 20,
+                  stepSize: stepSize,
                 },
                 title: {
                   display: false,

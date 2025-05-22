@@ -53,12 +53,9 @@ export default function DataCollection() {
             </h5>
             <p className=" md:text-lg lg:text-xl 2x:text-2xl mt-8  font-cabin">
               Data was collected through semi-structured interviews with 30
-              African immigrants holding at least a bachelor’s degree. Each
-              session lasted between 45–60 minutes, conducted via participants’
-              preferred medium in person, telephone, or secure video calls. The
-              flexible format encouraged open dialogue while ensuring coverage
-              of core themes such as credential recognition, workplace
-              integration, and dual identity.
+              African immigrants from Nigeria and Ghana, holding at least a
+              bachelor’s degree. All interview sessions were conducted via Zoom
+              and, lasted between 30–120 minutes.
             </p>
           </div>
           <div className=" bg-[#F7F7F7] rounded  py-10 md:py-14 px-5 md:px-8">

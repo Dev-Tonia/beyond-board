@@ -5,7 +5,7 @@ export default function Acknowledgements() {
   return (
     <section className=" py-12 lg:py-16 bg-[#FDCA401F]">
       <div className=" wrapper">
-        <ThirdHeading textColor="text-neutral-800" title="Acknowledgements" />
+        <ThirdHeading textColor="text-neutral-800" title="Reference" />
         <div className=" lg:text-2xl md:text-xl text-lg 2xl:text-4xl  mt-5 lg:mt-8 text-neutral-700 font-normal">
           <p>
             This project would not have been possible without the courage,

@@ -20,16 +20,15 @@ export default function Hero() {
       <div className="wrapper relative z-10 flex items-center h-full pb-20 pr-6">
         <div className="w-full md:w-5/12">
           <SecondHeading
-            title="How we gather the story"
-            className=" max-w-[400px]"
+            title="How We Gathered The Data"
+            className=" max-w-[500px]"
           />
           <div className="mt-6 text-neutral-200">
             <p className=" text-lg md:text-xl lg:text-xl mt-7">
-              This study adopts a qualitative exploratory case study design,
-              enabling in-depth exploration of the lived experiences of highly
-              educated Nigerian immigrants in Maryland. The focus is on
-              uncovering career development journeys, systemic barriers, and
-              cultural adaptation strategies.
+              This study employs a qualitative research design grounded in the
+              interpretivist paradigm, which seeks to understand the lived
+              experiences of highly educated Nigerian immigrants in Maryland
+              through their own narratives.
             </p>
           </div>
         </div>

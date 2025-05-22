@@ -20,7 +20,7 @@ export default function OtherLiterature() {
         </div>
 
         <div className="relative z-10  wrapper  ">
-          <div className=" max-w-xl  mx-auto bg-black/50">
+          <div className=" max-w-xl  mx-auto text-center bg-black/50">
             <LeadingText title=" Gaps in the Literature " />
           </div>
           {/* first section */}

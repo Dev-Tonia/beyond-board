@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import SecondHeading from "../common/second-heading";
 
 // Define TypeScript interfaces
 interface ProfilePosition {
@@ -141,41 +142,51 @@ const CircularProfiles: React.FC = () => {
   }
 
   return (
-    <div className="relative w-full h-screen bg-blue-100 overflow-hidden p-4 sm:p-8">
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="relative w-5/6 h-5/6 max-w-4xl max-h-4xl">
-          {profiles.map((profile: Profile) => {
-            const profileSize: number = getProfileSize();
-            return (
-              <div
-                key={profile.id}
-                className="absolute rounded-full border-2 border-white shadow-md overflow-hidden transition-transform hover:scale-110 hover:z-20"
-                style={{
-                  width: `${profileSize}px`,
-                  height: `${profileSize}px`,
-                  top: profile.position.top,
-                  left: profile.position.left,
-                  zIndex: profile.position.zIndex,
-                  transform: `translate(-50%, -50%)`, // Center the profile at its position
-                }}
-              >
-                {/* Next.js Image component with required width/height props */}
-                <div className="relative w-full h-full">
-                  <Image
-                    src={profile.imageUrl}
-                    alt={`Participant ${profile.id}`}
-                    fill
-                    sizes="(max-width: 768px) 45px, 85px"
-                    className="object-cover"
-                    priority={profile.id <= 5} // Prioritize loading for first few images
-                  />
-                </div>
-              </div>
-            );
-          })}
+    <section className=" py-16">
+      <div className="wrapper">
+        <SecondHeading
+          title="Who We Spoke To"
+          className=" max-w-[300px]"
+          textColor="text-neutral-800"
+        />
+
+        <div className="relative w-full h-[80vh]  overflow-hidden">
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="relative w-5/6 h-5/6 max-w-4xl max-h-4xl">
+              {profiles.map((profile: Profile) => {
+                const profileSize: number = getProfileSize();
+                return (
+                  <div
+                    key={profile.id}
+                    className="absolute rounded-full border-2 border-white shadow-md overflow-hidden transition-transform hover:scale-110 hover:z-20"
+                    style={{
+                      width: `${profileSize}px`,
+                      height: `${profileSize}px`,
+                      top: profile.position.top,
+                      left: profile.position.left,
+                      zIndex: profile.position.zIndex,
+                      transform: `translate(-50%, -50%)`, // Center the profile at its position
+                    }}
+                  >
+                    {/* Next.js Image component with required width/height props */}
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={profile.imageUrl}
+                        alt={`Participant ${profile.id}`}
+                        fill
+                        sizes="(max-width: 768px) 45px, 85px"
+                        className="object-cover"
+                        priority={profile.id <= 5} // Prioritize loading for first few images
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

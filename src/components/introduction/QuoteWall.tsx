@@ -5,19 +5,27 @@ import Image from "next/image";
 const quoteWall = [
   {
     id: 1,
-    title: "“STARTING ALL OVER AGAIN”",
+    name: "Participant 1",
+    image: "/img/participants/participant-1.png",
+    quote: "“STARTING ALL OVER AGAIN”",
   },
   {
-    id: 2,
-    title: "“I’M NOT REALLY FULLY USING ALL MY POTENTIALS”",
+    id: 9,
+    name: "Participant 9",
+    image: "/img/participants/participant-9.png",
+    quote: "“I’M NOT REALLY FULLY USING ALL MY POTENTIALS”",
   },
   {
-    id: 3,
-    title: "“WHEREVER YOU FIND YOURSELF, MAKE AN IMPACT”",
+    id: 12,
+    name: "Participant 12",
+    image: "/img/participants/participant-12.png",
+    quote: "“WHEREVER YOU FIND YOURSELF, MAKE AN IMPACT”",
   },
   {
-    id: 4,
-    title: "“FOR ME, HERE AND NIGERIA ARE ALMOST THE SAME”",
+    id: 15,
+    name: "Participant 15",
+    image: "/img/participants/participant-15.png",
+    quote: "“FOR ME, HERE AND NIGERIA ARE ALMOST THE SAME”",
   },
 ];
 export default function QuoteWall() {
@@ -35,12 +43,12 @@ export default function QuoteWall() {
               className=" bg-black/35 backdrop-blur-md rounded  py-10 md:py-14 px-5 md:px-8"
               key={quote.id}
             >
-              <ThirdHeading title={quote.title} />
+              <ThirdHeading title={quote.quote} />
               <div className=" flex gap-2 items-center mt-20 ">
                 <div className="size-20 rounded-full overflow-hidden relative">
                   <Image
-                    src="/img/user-avatar.png"
-                    alt="quote"
+                    src={quote.image}
+                    alt={quote.name}
                     fill
                     sizes="100vw"
                     className="object-cover rounded-full"
@@ -49,7 +57,7 @@ export default function QuoteWall() {
                   />
                 </div>
                 <p className=" font-cabin text-xl md:text-2xl lg:text-3xl 2xl:text-4xl text-neutral-50">
-                  Participant 1
+                  {quote.name}
                 </p>
               </div>
             </div>

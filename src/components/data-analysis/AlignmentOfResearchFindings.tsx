@@ -154,7 +154,7 @@ export default function AlignmentOfResearchFindings() {
               href="https://docs.google.com/document/d/1MRlWyacItvvA5NnWIJfFX9ZDPowoc1To/edit?usp=sharing&ouid=101093897556913123349&rtpof=true&sd=true"
               className="text-primary font-semibold hover:underline"
             >
-              [link]
+              Research Question Analysis
             </a>
           </SixthHeading>
         </div>

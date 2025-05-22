@@ -26,9 +26,6 @@ export default function Hero() {
             futures across new lands. Stories of strength from people who
             started over — and thrived.
           </p>
-          <div className="mt-6">
-            <CustomButton title="Read Stories" />
-          </div>
         </div>
       </div>
     </section>

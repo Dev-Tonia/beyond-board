@@ -36,7 +36,7 @@ export default function NavBar({
           onClick={handleNavigation}
         >
           <h1 className="text-lg 2xl:text-2xl font-bold font-georgian leading-none">
-            Stories of highly educated Africa <br /> immigrants in America
+            Stories of Highly Educated African <br /> Immigrants in America
           </h1>
         </div>
         {/* Hamburger Menu Button */}

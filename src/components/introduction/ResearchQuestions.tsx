@@ -29,10 +29,10 @@ export default function ResearchQuestions() {
         </div>
         <div className=" mt-9">
           <h6 className=" font-bold font-cabin text-xl md:text-2xl lg:text-3xl 2xl:text-4xl">
-            Central Research Questions
+            The following sub-questions support this broad inquiry:
           </h6>
 
-          <ol className=" list-decimal list-inside text-lg lg:text-xl 2xl:text-2xl italic">
+          <ol className=" list-decimal list-inside text-lg lg:text-xl 2xl:text-2xl ">
             <li>
               What are the push and pull factors related to immigration,
               cultural assimilation, and the professional landscape?

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import LeadingText from "../common/leading-text";
+import Link from "next/link";
 export default function Research() {
   return (
     <section className="relative min-h-screen w-full   pb-20 pt-14">
@@ -33,9 +34,12 @@ export default function Research() {
             effectively utilizing their professional skills and achieving their
             career goals.
           </p>
-          <button className=" py-4 text-center text-white bg-secondary w-full mt-8 font-nunito font-bold">
+          <Link
+            href={"/introduction"}
+            className=" py-4 text-center text-white bg-secondary w-full mt-8 font-nunito font-bold"
+          >
             View More Details
-          </button>
+          </Link>
         </div>
         <div className=" flex justify-end mt-20">
           <div className=" bg-black/50 text-neutral-50 text-center p-5 md:p-9 xl:p-12 max-w-xl">
@@ -50,9 +54,12 @@ export default function Research() {
               lasted between 30 to 120 minutes and was recorded with
               participants' consent.
             </p>
-            <button className=" py-4 text-center text-white bg-secondary w-full mt-8 font-nunito font-bold">
+            <Link
+              href={"/methodology"}
+              className=" py-4 text-center text-white bg-secondary w-full mt-8 font-nunito font-bold"
+            >
               View More Details
-            </button>
+            </Link>
           </div>
         </div>
       </div>
