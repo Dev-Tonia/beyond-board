@@ -25,7 +25,7 @@ export default function Research() {
         </div>
         <div className=" bg-black/50 text-neutral-50 text-center p-5 md:p-9 xl:p-12 max-w-xl mt-16">
           <h3 className=" font-georgian text-xl font-bold md:text-2xl lg:text-4xl 2xl:text-5xl">
-            Aim of Research
+             Aim of Research
           </h3>
           <p className="  md:text-lg   lg:text-xl 2xl:text-2xl font-cabin ">
             The aim of my research work is to provide additional background and
