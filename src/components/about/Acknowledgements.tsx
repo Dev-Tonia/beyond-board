@@ -34,9 +34,7 @@ export default function Acknowledgements() {
           <p className="mb-5">
             I also want to thank all my friends and family for their support
             throughout this journey. Your presence, patience, and encouragement
-            sustained me in more ways than I can express.  This project is
-            dedicated to the African immigrants who carry their dreams across
-            borders, build new lives with strength, hope and grace.
+            sustained me in more ways than I can express.  
           </p>
           <p className="mb-5">
             This project is dedicated to the African immigrants who carry their
