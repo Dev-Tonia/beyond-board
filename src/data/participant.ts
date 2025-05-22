@@ -305,7 +305,7 @@ export const participantInterviews = [
     quote: "“STARTING ALL OVER AGAIN”",
     interviewQuestion: "/questions/INTERVIEW-txt-1.docx",
     audio: "/audios/Interview-1.m4a",
-    careerBefore: "Special education need coordinator ",
+    careerBefore: "Special Education Need Coordinator ",
     careerAfter: "Personal Care Assistant",
     from: "Nigeria",
     link: "https://docs.google.com/document/d/1ee2kpFkfjT56Lwv7v44MIMDM2z5aj9IJB5DQdRP9fF4/edit?tab=t.0",
@@ -346,7 +346,7 @@ export const participantInterviews = [
     audio: "/audios/Interview-4.m4a",
     from: "Nigeria",
     careerBefore: "Lecturer",
-    careerAfter: "Phd Student",
+    careerAfter: "PhD Student",
     link: "https://docs.google.com/document/d/1HiMixbX6T6_TJ3bkLfbuJTk2HB7ruhdebnEdTMl0qJk/edit?tab=t.0",
   },
   {
