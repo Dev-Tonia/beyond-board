@@ -93,7 +93,7 @@ export default function ConclusionPoint() {
             <a
               className=" text-blue-600"
               target="_blank"
-              href="https://docs.google.com/spreadsheets/d/1pcAdnFJVC62gqixoZIvV-HMIrs36VePx/edit?gid=116950884#gid=116950884"
+              href="https://docs.google.com/document/d/1p4uyqfF6BO2XBPULhAbbxQKmcyr3Zyp5/edit?rtpof=true&tab=t.0"
             >
               Beyond Borders
             </a>

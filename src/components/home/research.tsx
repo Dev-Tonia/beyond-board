@@ -25,7 +25,7 @@ export default function Research() {
         </div>
         <div className=" bg-black/50 text-neutral-50 text-center p-5 md:p-9 xl:p-12 max-w-xl mt-16">
           <h3 className=" font-georgian text-xl font-bold md:text-2xl lg:text-4xl 2xl:text-5xl">
-            Aim of Research{" "}
+            Aim of Research
           </h3>
           <p className="  md:text-lg   lg:text-xl 2xl:text-2xl font-cabin ">
             The aim of my research work is to provide additional background and
@@ -34,15 +34,17 @@ export default function Research() {
             effectively utilizing their professional skills and achieving their
             career goals.
           </p>
-          <Link
-            href={"/introduction"}
-            className=" py-4 text-center text-white bg-secondary w-full mt-8 font-nunito font-bold"
-          >
-            View More Details
-          </Link>
+          <div className="mt-8">
+            <Link
+              href={"/introduction"}
+              className=" py-4 text-center text-white bg-secondary w-full px-5 mt-8 font-nunito font-bold"
+            >
+              View More Details
+            </Link>
+          </div>
         </div>
         <div className=" flex justify-end mt-20">
-          <div className=" bg-black/50 text-neutral-50 text-center p-5 md:p-9 xl:p-12 max-w-xl">
+          <div className=" bg-black/50 text-neutral-50 text-center p-5 md:p-9 xl:p-12 max-w-xl ">
             <h3 className=" font-georgian text-xl font-bold md:text-2xl lg:text-4xl 2xl:text-5xl">
               Methodology
             </h3>
@@ -54,12 +56,14 @@ export default function Research() {
               lasted between 30 to 120 minutes and was recorded with
               participants' consent.
             </p>
-            <Link
-              href={"/methodology"}
-              className=" py-4 text-center text-white bg-secondary w-full mt-8 font-nunito font-bold"
-            >
-              View More Details
-            </Link>
+            <div className="mt-8">
+              <Link
+                href={"/methodology"}
+                className=" py-4 text-center text-white bg-secondary w-full px-5 mt-8 font-nunito font-bold"
+              >
+                View More Details
+              </Link>
+            </div>
           </div>
         </div>
       </div>

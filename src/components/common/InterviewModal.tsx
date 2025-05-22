@@ -17,6 +17,7 @@ interface Participant {
   from: string;
   careerBefore: string;
   careerAfter: string;
+  link: string;
 }
 
 export default function InterviewModal({
@@ -133,7 +134,7 @@ export default function InterviewModal({
                       </div>
                     )}
                     <a
-                      href="https://docs.google.com/document/d/1qv7xSKbY8hsIWXHtCVk5tpYMZTXI8u5s/edit?tab=t.0"
+                      href={participant.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[#237A15] hover:underline flex items-center gap-1"

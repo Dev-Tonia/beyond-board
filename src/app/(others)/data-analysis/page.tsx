@@ -40,15 +40,12 @@ export default function DataAnalysis() {
             className=" space-x-2 mt-8"
             textColor=" text-neutral-800"
           >
-            <span>
-              {" "}
-              For research question analysis please follow this link:
-            </span>
+            <span> For more analysis please follow this link:</span>
             <a
               href="https://docs.google.com/spreadsheets/d/1pcAdnFJVC62gqixoZIvV-HMIrs36VePx/edit?usp=sharing&ouid=101093897556913123349&rtpof=true&sd=true"
               className="text-primary font-semibold hover:underline"
             >
-              Research Question Analysis
+              All analysis data{" "}
             </a>
           </SixthHeading>{" "}
         </div>

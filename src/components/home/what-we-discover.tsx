@@ -75,9 +75,13 @@ export default function WhatWeDiscover() {
               <h4 className=" max-w-[300px] text-xl md:text-2xl lg:text-3xl 2xl:text-4xl font-bold font-georgian ">
                 Uncover what we learned through every journey.
               </h4>
-              <button className=" py-4 text-center w-fit px-5 text-white bg-primary mt-8 font-nunito font-bold">
+              <a
+                href="/conclusion"
+                target="_blank"
+                className=" py-4 text-center w-fit px-5 text-white bg-primary mt-8 font-nunito font-bold"
+              >
                 See Full Conclusion
-              </button>
+              </a>
             </div>
           </div>
         </div>

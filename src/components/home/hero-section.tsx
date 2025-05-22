@@ -37,12 +37,14 @@ export default function HeroSection() {
         <div className="max-w-4xl mx-auto">
           <SecondHeading title="From Africa to America: Stories of Highly Educated Nigerian Immigrants" />
 
-          <CustomButton
-            title=" Explore their Stories"
-            onClick={() => {
-              router.push("/stories");
-            }}
-          />
+          <div className="mt-5">
+            <CustomButton
+              title=" Explore their Stories"
+              onClick={() => {
+                router.push("/stories");
+              }}
+            />
+          </div>
         </div>
         <div className=" relative w-fit py-12 px-20 2xl:px-24 max-w-5xl 2xl:max-w-7xl mx-auto mt-20">
           <div className="absolute inset-0 w-full h-full bg-black/50" />
