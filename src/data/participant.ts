@@ -473,7 +473,7 @@ export const participantInterviews = [
     audio: "/audios/Interview-14.m4a",
     from: "Nigeria",
     careerBefore: "Administrative Officer, Project Manager",
-    careerAfter: "Small Business Owner, Uber, Lyft driver limit",
+    careerAfter: "Small Business Owner, Uber, Lyft Driver",
     link: "https://docs.google.com/document/d/1Tjwn-MfiqpjR4AlYIG7qNdt185hl0ojl0JGJjxsOdI4/edit?tab=t.0",
   },
 
