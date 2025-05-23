@@ -73,7 +73,7 @@ export default function DataCollection() {
         {/* collection process */}
         <div className=" mt-8">
           <h5 className=" font-bold font-cabin text-xl md:text-2xl lg:text-3xl 2xl:text-4xl mb-10">
-            Data collection Process
+            Data Collection Process
           </h5>
           <div className=" grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-8">
             {content.map((item, index) => (
