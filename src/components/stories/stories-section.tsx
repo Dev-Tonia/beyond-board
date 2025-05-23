@@ -5,7 +5,11 @@ import LeadingText from "../common/leading-text";
 import CustomButton from "../common/custom-button";
 import clsx from "clsx";
 import UserStoriesCard from "../common/user-stories-card";
-import { getParticipants, participants } from "@/data/participant";
+import {
+  getParticipants,
+  participantInterviews,
+  participants,
+} from "@/data/participant";
 
 const colors = [
   "bg-secondary", // First color
@@ -51,7 +55,7 @@ export default function StoriesSection() {
             title="Load More"
             className={clsx(
               "bg-secondary text-neutral-800  hover:bg-secondary/80 ",
-              showMore === participants.length ? "hidden" : ""
+              showMore === participantInterviews.length ? "hidden" : ""
             )}
             onClick={() => setShowMore((prev) => prev + 3)}
           />

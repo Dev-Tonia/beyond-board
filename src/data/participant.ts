@@ -210,7 +210,7 @@ export const participants = [
     image: "/img/participants/participant-22.png",
     quote: "“IF THERE'S ANYTHING BELOW UNDERUTILIZED, THAT IS WHAT IT IS”",
     careerBefore: "Legal Practitioner",
-    careerAfter: " Community Coach 3 Years ",
+    careerAfter: " Community Coach ",
     from: "Nigeria",
   },
   {
@@ -278,10 +278,11 @@ export const participants = [
     name: "Participant 29",
     image: "/img/participants/participant-29.png",
     quote: "“I WASN’T CHASING SURVIVAL; I WAS CHASING PURPOSE”",
-    careerBefore: " Technical writing, media, journalism ",
-    careerAfter: "Professor and E- learning Developer Security Guard 7-Ph",
+    careerBefore: " Technical Writer, Media Journalist  ",
+    careerAfter: "Professor and E- learning Developer",
     from: "Ghana",
   },
+
   {
     id: 30,
     name: "Participant 30",
@@ -294,7 +295,7 @@ export const participants = [
   },
 ];
 export function getParticipants(count: number = 6) {
-  return participants.slice(0, count);
+  return participantInterviews.slice(0, count);
 }
 
 export const participantInterviews = [
@@ -669,6 +670,7 @@ export const participantInterviews = [
     careerAfter: "Professor and E-learning Developer",
     link: "https://docs.google.com/document/d/1nlDf7vqDxx0zUCFtnDv9b9wqiKMj2v5B5BckaKbgenI/edit?tab=t.0",
   },
+  // Technical Writer, Media Journalist  - Professor and E- learning Developer
   {
     id: 30,
     name: "Participant 30",

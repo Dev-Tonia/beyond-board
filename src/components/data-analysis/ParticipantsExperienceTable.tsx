@@ -5,28 +5,28 @@ const ParticipantsExperienceTable = () => {
   const data = [
     {
       category: "Accounting & Finance",
-      totalYears: 549,
-      totalExperience: 23,
+      totalYears: 149,
+      totalExperience: 21,
       africaParticipants: 7,
       usParticipants: 3,
     },
     {
       category: "Consulting",
-      totalYears: 31,
+      totalYears: 11,
       totalExperience: 0,
       africaParticipants: 1,
       usParticipants: 0,
     },
     {
       category: "Education & Research",
-      totalYears: 162,
-      totalExperience: 39,
+      totalYears: 92,
+      totalExperience: 38,
       africaParticipants: 7,
       usParticipants: 4,
     },
     {
       category: "Entrepreneurship",
-      totalYears: 54,
+      totalYears: 34,
       totalExperience: 0,
       africaParticipants: 3,
       usParticipants: 0,
@@ -41,21 +41,21 @@ const ParticipantsExperienceTable = () => {
     {
       category: "Healthcare & Support",
       totalYears: 26,
-      totalExperience: 39,
+      totalExperience: 108,
       africaParticipants: 3,
       usParticipants: 4,
     },
     {
       category: "IT & Cybersecurity",
       totalYears: 34,
-      totalExperience: 39,
+      totalExperience: 38,
       africaParticipants: 4,
       usParticipants: 5,
     },
     {
       category: "Law Enforcement",
       totalYears: 0,
-      totalExperience: 6,
+      totalExperience: 8,
       africaParticipants: 0,
       usParticipants: 1,
     },
@@ -82,7 +82,7 @@ const ParticipantsExperienceTable = () => {
     },
     {
       category: "Sales/Business Development",
-      totalYears: 51,
+      totalYears: 31,
       totalExperience: 0,
       africaParticipants: 2,
       usParticipants: 0,
@@ -138,7 +138,7 @@ const ParticipantsExperienceTable = () => {
               <tr className="bg-gray-100 font-semibold">
                 <td className=" px-4 py-2 ">Total</td>
                 <td className=" px-4 py-2  ">407</td>
-                <td className=" px-4 py-2  ">229</td>
+                <td className=" px-4 py-2  ">226</td>
                 <td className=" px-4 py-2  ">30</td>
                 <td className=" px-4 py-2  ">30</td>
               </tr>
