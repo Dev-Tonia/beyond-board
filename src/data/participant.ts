@@ -230,7 +230,7 @@ export const participants = [
     quote:
       "“OUR JOB TITLES MAY NOT TRANSLATE, BUT OUR SKILLS DO. WE JUST NEED HELP MAKING THE LANGUAGE SHIFT”",
     careerBefore: "Project coordinator/Administrative Executive ",
-    careerAfter: "Technical Project ManagerSoftware Engineer",
+    careerAfter: "Technical Project Manager, Software Engineer",
     from: "Nigeria",
   },
   {
@@ -603,7 +603,7 @@ export const participantInterviews = [
     audio: "/audios/Interview-24.m4a",
     from: "Nigeria",
     careerBefore: "Project coordinator/Administrative Executive ",
-    careerAfter: "Technical Project ManagerSoftware Engineer",
+    careerAfter: "Technical Project Manager, Software Engineer",
     link: "https://docs.google.com/document/d/1mAQrZOMABXsGvdab6Glu6mT5lE8CbnM4UHiuTxiHSY4/edit?tab=t.0",
   },
   {
