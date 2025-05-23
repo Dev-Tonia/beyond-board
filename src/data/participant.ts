@@ -511,7 +511,7 @@ export const participantInterviews = [
       "“IMMIGRANTS MUST LEARN TO ‘READ THE ROOM,’ WORK HARDER THAN PEERS, AND MANAGE EMOTIONAL REACTIONS STRATEGICALLY”",
     interviewQuestion: "/questions/INTERVIEW-txt-17.docx",
     audio: "/audios/Interview-17.m4a",
-    from: "Ghana",
+    from: "Nigeria",
     careerBefore: "Physician  ",
     careerAfter:
       "Physician, Assistant Professor, Board Certification in Anesthesiology.",
