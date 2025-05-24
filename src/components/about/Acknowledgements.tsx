@@ -48,6 +48,7 @@ export default function Acknowledgements() {
             1.⁠ ⁠Participant 16’s interview transcript file did not format properly due to a technical glitch. <br />
             2.⁠ ⁠Participant 17’s interview transcript file failed to upload due to a last-minute technical glitch. <br />
             3.⁠ ⁠In the data analysis section, participant experience comparison between Africa and US should have read that Healthcare & Support participant increased from 4 to 14, and Entrepreneurship decreased from 2 to 0.
+            <br /><br />
           </p>
 
           <SixthHeading title="Dedication" textColor=" text-neutral-800" />
