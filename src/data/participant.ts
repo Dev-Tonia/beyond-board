@@ -509,7 +509,7 @@ export const participantInterviews = [
     image: "/img/participants/participant-17.png",
     quote:
       "“IMMIGRANTS MUST LEARN TO ‘READ THE ROOM,’ WORK HARDER THAN PEERS, AND MANAGE EMOTIONAL REACTIONS STRATEGICALLY”",
-    interviewQuestion: "/questions/INTERVIEW-txt-17.doc",
+    interviewQuestion: "/questions/INTERVIEW-txt-17.docx",
     audio: "/audios/Interview-17.m4a",
     from: "Nigeria",
     careerBefore: "Physician  ",
