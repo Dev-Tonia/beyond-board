@@ -35,7 +35,7 @@ export const participants = [
     quote:
       "“UNRECOGNIZED FOREIGN QUALIFICATIONS FORCE IMMIGRANTS TO START FROM SCRATCH”",
     careerBefore: "Lecturer",
-    careerAfter: "Phd Student",
+    careerAfter: "PhD Student",
     from: "Nigeria",
   },
   {
@@ -132,8 +132,8 @@ export const participants = [
     image: "/img/participants/participant-14.png",
     quote: "“IT’S A COMPLETE OPPOSITE COMPARED TO WHERE I WAS COMING FROM”",
     careerBefore: "Administrative Officer, Project Manager",
-    careerAfter: "Small Business Owner, Uber, Lyft driver limit",
-    from: "Ghana",
+    careerAfter: "Small Business Owner, Uber, Lyft Driver",
+    from: "Nigeria",
   },
   {
     id: 15,
@@ -141,7 +141,7 @@ export const participants = [
     image: "/img/participants/participant-15.png",
     quote: "“FOR ME, HERE AND NIGERIA ARE ALMOST THE SAME”",
     careerBefore: "Financial Controller ",
-    careerAfter: "Uber/Lyft driver",
+    careerAfter: "Uber/Lyft Driver",
     from: "Nigeria",
   },
   {
@@ -163,7 +163,7 @@ export const participants = [
     careerBefore: "Physician  ",
     careerAfter:
       "Physician, Assistant Professor, Board Certification in Anesthesiology.",
-    from: "Ghana",
+    from: "Nigeria",
   },
   {
     id: 18,
@@ -230,7 +230,7 @@ export const participants = [
     quote:
       "“OUR JOB TITLES MAY NOT TRANSLATE, BUT OUR SKILLS DO. WE JUST NEED HELP MAKING THE LANGUAGE SHIFT”",
     careerBefore: "Project coordinator/Administrative Executive ",
-    careerAfter: "Technical Project ManagerSoftware Engineer",
+    careerAfter: "Technical Project Manager, Software Engineer",
     from: "Nigeria",
   },
   {
@@ -280,7 +280,7 @@ export const participants = [
     quote: "“I WASN’T CHASING SURVIVAL; I WAS CHASING PURPOSE”",
     careerBefore: " Technical Writer, Media Journalist  ",
     careerAfter: "Professor and E- learning Developer",
-    from: "Ghana",
+    from: "Nigeria",
   },
 
   {
@@ -487,7 +487,7 @@ export const participantInterviews = [
     audio: "/audios/Interview-15.m4a",
     from: "Nigeria",
     careerBefore: "Financial Controller ",
-    careerAfter: "Uber/Lyft driver",
+    careerAfter: "Uber/Lyft Driver",
     link: "https://docs.google.com/document/d/1B1IT0a4CdNF5LD6M3rTaTqxrLJOQwTzJ7HnThImquIY/edit?tab=t.0",
   },
   {
@@ -509,7 +509,7 @@ export const participantInterviews = [
     image: "/img/participants/participant-17.png",
     quote:
       "“IMMIGRANTS MUST LEARN TO ‘READ THE ROOM,’ WORK HARDER THAN PEERS, AND MANAGE EMOTIONAL REACTIONS STRATEGICALLY”",
-    interviewQuestion: "/questions/INTERVIEW-txt-17.docx",
+    interviewQuestion: "/questions/INTERVIEW-txt-17.doc",
     audio: "/audios/Interview-17.m4a",
     from: "Nigeria",
     careerBefore: "Physician  ",
@@ -603,7 +603,7 @@ export const participantInterviews = [
     audio: "/audios/Interview-24.m4a",
     from: "Nigeria",
     careerBefore: "Project coordinator/Administrative Executive ",
-    careerAfter: "Technical Project ManagerSoftware Engineer",
+    careerAfter: "Technical Project Manager, Software Engineer",
     link: "https://docs.google.com/document/d/1mAQrZOMABXsGvdab6Glu6mT5lE8CbnM4UHiuTxiHSY4/edit?tab=t.0",
   },
   {

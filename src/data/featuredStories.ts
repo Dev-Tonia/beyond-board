@@ -23,7 +23,7 @@ export const featuredStories = [
     image: "/img/participants/participant-9.png",
     quote: "I didn’t come to erase my past—I came to rewrite my future.",
     story:
-      'A seasoned financial controller in Nigeria, Participant 9 fled rising insecurity and economic chaos to protect her children’s future. In Maryland, she traded corporate spreadsheets for caregiving gloves—documenting health charts instead of managing ledgers. Her career may have paused, but her purpose didn\'t. Despite early experiences of racial rejection and family back home thinking she n"picks dollars off the streets,n" she holds fast to her dream of becoming a U.S.-licensed tax consultant.',
+      'A seasoned financial controller in Nigeria, Participant 9 fled rising insecurity and economic chaos to protect her children’s future. In Maryland, she traded corporate spreadsheets for caregiving gloves—documenting health charts instead of managing ledgers. Her career may have paused, but her purpose didn\'t. Despite early experiences of racial rejection and family back home thinking she "picks dollars off the streets," she holds fast to her dream of becoming a U.S.-licensed tax consultant.',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const featuredStories = [
     quote:
       "I just wanted to have absolute control of my time and schedules. This has given me priceless opportunity to spend quality time with my family.",
     story:
-      "As a financial controller in Lagos’ hospitality industry, Participant 15 had made it—but in America, he chose the wheel over the boardroom. Working as a full-time Uber and Lyft driver, he values autonomy, zero office politics, and time with family over title and prestige. His is a rare story of intentional underemployment—proof that freedom and dignity sometimes ride in the back seat of a clean, well-driven car.",
+      "As a financial controller in Lagos hospitality industry, Participant 15 had made it—but in America, he chose the wheel over the boardroom. Working as a full-time Uber and Lyft driver, he values autonomy, zero office politics, and time with family over title and prestige. His is a rare story of intentional underemployment—proof that freedom and dignity sometimes ride in the back seat of a clean, well-driven car.",
   },
   {
     id: 6,
@@ -70,8 +70,8 @@ export const featuredStories = [
   },
   {
     id: 9,
-    participant: "Participant 28",
-    image: "/img/participants/participant-28.png",
+    participant: "Participant 29",
+    image: "/img/participants/participant-29.png",
     quote: "I wasn’t chasing survival; I was chasing purpose.",
     story:
       "Once a Nigerian technical writer dismissed as “unqualified” in the U.S., Participant 29 endured over 600 job rejections and worked as a night security guard, sneaking in his university assignments during breaks. Refusing to let his diploma define him, he earned two bachelor’s, three master’s, and two PhDs, ultimately becoming a federal e-learning specialist and professor. His story isn’t just about credentials—it’s about remaking identity through grit, strategy, and a purpose that outpaced survival.",
