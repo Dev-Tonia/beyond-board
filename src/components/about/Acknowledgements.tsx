@@ -44,7 +44,7 @@ export default function Acknowledgements() {
             to visual storytelling.
 
             <br /> <br />
-            The following errors are regretted and are acknowledged on the website: <br />
+            The following errors are regretted and are acknowledged on the website: <br />  
             1.⁠ ⁠In the data analysis section, participant experience comparison between Africa and US should have read that Healthcare & Support participant increased from 4 to 14, and Entrepreneurship decreased from 2 to 0.
             <br /><br />
           </p>
