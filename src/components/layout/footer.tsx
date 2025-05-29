@@ -62,7 +62,7 @@ export default function Footer() {
                 University of Baltimore, Maryland.
               </h6>
 
-              <div className="flex flex-center center text-sm mt-20">
+              <div className="flex flex-center center text-sm mt-7">
                 <p>
                   Disclaimer: The pictures of the participants used in this
                   project are AI-generated images and do not represent real
