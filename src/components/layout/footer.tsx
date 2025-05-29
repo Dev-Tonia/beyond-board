@@ -86,15 +86,15 @@ export default function Footer() {
                   </a>
                 </p>
               </div>
-              <div className="text-sm">
-                <p>
-                  Disclaimer: The pictures of the participants used in this
-                  project are AI-generated images and do not represent real
-                  individuals. They are used solely for illustrative purposes. 
-                </p>
-              </div>
             </div>
           </div>
+            <div className="flex flex-center center text-sm">
+              <p>
+                Disclaimer: The pictures of the participants used in this
+                project are AI-generated images and do not represent real
+                individuals. They are used solely for illustrative purposes. 
+              </p>
+            </div>
         </div>
       </div>
     </footer>
