@@ -61,6 +61,14 @@ export default function Footer() {
                 the Doctor of Public Administration (D.P.A.) degree at the
                 University of Baltimore, Maryland.
               </h6>
+
+              <div className="flex flex-center center text-sm">
+                <p>
+                  Disclaimer: The pictures of the participants used in this
+                  project are AI-generated images and do not represent real
+                  individuals. They are used solely for illustrative purposes. 
+                </p>
+              </div>
             </div>
             <div className=" flex gap-8">
               <div className=" ">
@@ -88,13 +96,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-            <div className="flex flex-center center text-sm">
-              <p>
-                Disclaimer: The pictures of the participants used in this
-                project are AI-generated images and do not represent real
-                individuals. They are used solely for illustrative purposes. 
-              </p>
-            </div>
+          {/*} <!-- Here previously --> */}
         </div>
       </div>
     </footer>
