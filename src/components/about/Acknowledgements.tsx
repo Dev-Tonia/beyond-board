@@ -21,7 +21,7 @@ export default function Acknowledgements() {
           <p className="mb-5">
             Special appreciation goes to my mentors and advisers at the
             University of Baltimore. I am especially grateful to Professor
-            Mariglynn Edlins, whose work on immigration inspired the foundation
+            Mariglynn Edlins, whose work on unaccompanied migrant children inspired the foundation
             of this project and whose guidance helped shape my thinking
             throughout. I also thank Professor Ivan Sheehan for his long-term
             mentorship and unwavering support throughout my doctoral journey.
@@ -43,11 +43,6 @@ export default function Acknowledgements() {
             and OpenAI, and are gratefully acknowledged for their contributions
             to visual storytelling.
 
-            <br /> <br />
-            The following errors are regretted and are acknowledged on the website: <br />  
-            1.⁠ ⁠In the data analysis section, participant experience comparison between Africa and US should have read that Healthcare & Support participant increased from 4 to 14, and Entrepreneurship decreased from 2 to 0. <br />
-            2. Participant 16’s interview transcript file did not format properly due to a technical glitch
-            <br /><br />
           </p>
 
           <SixthHeading title="Dedication" textColor=" text-neutral-800" />

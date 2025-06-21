@@ -64,9 +64,9 @@ export default function Footer() {
 
               <div className="flex flex-center center text-sm mt-7">
                 <p>
-                  Disclaimer: The pictures of the participants used in this
-                  project are AI-generated images and do not represent real
-                  individuals. They are used solely for illustrative purposes. 
+                    All interviews shared in this public scholarship project are with ethics-approved 
+                    participant consent. Personal information has been anonymized. Images are fictional 
+                    representations and do not depict real individuals.
                 </p>
               </div>
             </div>
