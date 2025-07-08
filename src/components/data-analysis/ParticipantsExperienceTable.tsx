@@ -28,7 +28,7 @@ const ParticipantsExperienceTable = () => {
       category: "Entrepreneurship",
       totalYears: 34,
       totalExperience: 0,
-      africaParticipants: 3,
+      africaParticipants: 2,
       usParticipants: 0,
     },
     {
@@ -42,8 +42,8 @@ const ParticipantsExperienceTable = () => {
       category: "Healthcare & Support",
       totalYears: 26,
       totalExperience: 108,
-      africaParticipants: 3,
-      usParticipants: 4,
+      africaParticipants: 4,
+      usParticipants: 14,
     },
     {
       category: "IT & Cybersecurity",
