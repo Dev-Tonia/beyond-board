@@ -34,7 +34,6 @@ export default function InterviewModal({
       const data: any = getParticipantInterviewById(participantId);
       setParticipant(data);
     } catch (error) {
-      console.error("Error loading participant data:", error);
       setParticipant(null);
     } finally {
       setLoading(false);

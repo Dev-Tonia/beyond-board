@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { User } from "lucide-react";
+import { CircleX, SidebarClose, User } from "lucide-react";
 import SecondHeading from "../common/second-heading";
 import { participants } from "@/data/participant";
-
+import Image from "next/image";
+import { summaries } from "@/data/summary";
 // Define TypeScript interfaces
 interface ProfilePosition {
   top: string;
@@ -39,9 +40,9 @@ const OrbitalProfiles: React.FC = () => {
     height: 600,
   });
   const [isMounted, setIsMounted] = useState<boolean>(false);
-  const [isHovered, setIsHovered] = useState<number | null>(null);
+  // const [isHovered, setIsHovered] = useState<number | null>(null);
   const [animationTime, setAnimationTime] = useState<number>(0);
-
+  const [hoveredProfile, setHoveredProfile] = useState<Profile | null>(null);
   // Generate profiles in orbital arrangement
   const generateOrbitalProfiles = (
     width: number,
@@ -91,7 +92,10 @@ const OrbitalProfiles: React.FC = () => {
         newProfiles.push({
           id: idCounter,
           imageUrl: `/img/participants/participant-${idCounter}.png`,
-          user: participants[idCounter - 1],
+          user: {
+            ...participants[idCounter - 1],
+            summary: summaries[idCounter - 1].storySummary,
+          },
           position: {
             left: `${(adjustedX / width) * 100}%`,
             top: `${(adjustedY / height) * 100}%`,
@@ -161,6 +165,20 @@ const OrbitalProfiles: React.FC = () => {
       </div>
     );
   }
+
+  // on mouse enter and mouse leave function
+  let isHovered: number | null = null;
+  const handleMouseEnter = (id: number) => {
+    const profile = profiles.find((p) => p.id === id) || null;
+    isHovered = id;
+    setHoveredProfile(profile);
+  };
+
+  const handleMouseLeave = () => {
+    // setIsHovered(null);
+    isHovered = null;
+    setHoveredProfile(null);
+  };
 
   return (
     <div className="wrapper">
@@ -237,8 +255,7 @@ const OrbitalProfiles: React.FC = () => {
                     zIndex:
                       isHovered === profile.id ? 30 : profile.position.zIndex,
                   }}
-                  onMouseEnter={() => setIsHovered(profile.id)}
-                  onMouseLeave={() => setIsHovered(null)}
+                  onClick={() => handleMouseEnter(profile.id)}
                 >
                   {/* Orbital glow effect */}
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400/30 to-purple-500/30 animate-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -279,14 +296,61 @@ const OrbitalProfiles: React.FC = () => {
         </div>
 
         {/* Profile Info Tooltip */}
-        {isHovered && (
-          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40 pointer-events-none">
-            <div className="bg-white backdrop-blur-md text-gray-800 px-6 py-4 rounded-xl border border-white/20 shadow-2xl">
-              <div className="text-lg font-semibold">
-                {profiles.find((p) => p.id === isHovered)?.user.name}
-              </div>
-              <div className="text-gray-300 italic text-xs mt-1">
-                {profiles.find((p) => p.id === isHovered)?.user.quote}
+        {hoveredProfile && (
+          // <div className="fixed inset-0 bg-black/90 flex items-center justify-center p-4 z-50">
+          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40 ">
+            <div className="bg-white backdrop-blur-md  mt-20 text-gray-800 px-6 py-4 max-h-[80vh] overflow-auto rounded-xl border border-white/20 shadow-2xl">
+              <CircleX
+                className=" ml-auto cursor-pointer text-red-400 size-6 "
+                onClick={handleMouseLeave}
+              />
+              <div className="flex flex-col md:flex-row gap-6">
+                <div className="flex-shrink-0">
+                  <div className="relative w-full md:w-[200px] aspect-square bg-gray-200 rounded-md overflow-hidden">
+                    <Image
+                      src={hoveredProfile.user.image}
+                      alt={`Participant`}
+                      width={200}
+                      height={200}
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="mt-4">
+                    <h2 className="text-xl font-bold">
+                      {hoveredProfile.user.name}
+                    </h2>
+                    <div className="flex items-center gap-2 mt-2">
+                      <span>{hoveredProfile.user.from}</span>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 12L12 8M12 8L8 4M12 8H4"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                      <span>USA</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex-grow">
+                  <h3 className="text-gray-800 italic text-xs mt-1 mb-3">
+                    {hoveredProfile.user.quote}
+                  </h3>
+
+                  <div className="space-y-4 text-justify">
+                    <p>{hoveredProfile.user.summary}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
