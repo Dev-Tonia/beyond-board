@@ -5,6 +5,8 @@ import Image from "next/image";
 import InterviewReader from "./InterviewReader";
 import { getParticipantInterviewById } from "@/data/participant";
 import AudioPlayer from "./AudioPlayer";
+import Link from "next/link";
+import { summaries } from "@/data/summary";
 
 // Define the Participant interface
 interface Participant {
@@ -32,7 +34,8 @@ export default function InterviewModal({
   useEffect(() => {
     try {
       const data: any = getParticipantInterviewById(participantId);
-      setParticipant(data);
+      const summary = summaries.find((sum) => sum.id === participantId);
+      setParticipant({ ...data, summary: summary?.storySummary });
     } catch (error) {
       setParticipant(null);
     } finally {
@@ -155,6 +158,27 @@ export default function InterviewModal({
                       </svg>
                       View Thematic Analysis
                     </a>
+                    <Link
+                      href={`/stories/${participantId}`}
+                      className="text-[#237A15] hover:underline flex items-center gap-1"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 2.5V13.5M8 2.5L4 6.5M8 2.5L12 6.5"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                      View Interview
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -167,7 +191,10 @@ export default function InterviewModal({
                 )}
 
                 <div className="space-y-4">
-                  <InterviewReader url={participant.interviewQuestion} />
+                  {/* <InterviewReader url={participant.interviewQuestion} /> */}
+                  <div className="space-y-4 text-justify">
+                    <p>{participant.summary}</p>
+                  </div>
                 </div>
               </div>
             </div>

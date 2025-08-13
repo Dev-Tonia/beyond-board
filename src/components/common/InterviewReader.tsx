@@ -88,7 +88,7 @@ const InterviewReader = ({ url }: { url: string }) => {
         const parsed = parseInterviewData(text);
         setInterviewData(parsed);
       } catch (error) {
-        console.error("Error loading interview data:", error);
+        // console.error("Error loading interview data:", error);
         setError(`Failed to load interview data: ${(error as Error).message}`);
       } finally {
         setLoading(false);
