@@ -32,7 +32,7 @@
 }
 
 .wrapper {
-  @apply w-[88%] mx-auto font-cabin font-normal;
+  @apply w-[88%] mx-auto font-cabin font-normal ;
 }
 
 /* body {
