@@ -7,10 +7,11 @@ import { getParticipantInterviewById } from "@/data/participant";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { use } from "react";
 
 interface Participant {
   id: number;
-  participant: string;
+  name: string;
   image: string;
   quote: string;
   interviewQuestion: string;
@@ -21,19 +22,18 @@ interface Participant {
   link: string;
 }
 
-export default function Story({ params }: { params: { id: number } }) {
-  const { id } = params;
+export default function Story({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
+  const numericId = Number(id);
   const router = useRouter();
-
   const [participant, setParticipant] = useState<Participant | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const numericId = Number(id);
         const data = await getParticipantInterviewById(numericId);
-        setParticipant(data);
+        setParticipant(data || null);
       } catch (error) {
         // console.error(error);
         setParticipant(null);
@@ -43,7 +43,7 @@ export default function Story({ params }: { params: { id: number } }) {
     };
 
     fetchData();
-  }, [id]);
+  }, [numericId]);
 
   if (loading) {
     return (
@@ -64,7 +64,6 @@ export default function Story({ params }: { params: { id: number } }) {
   return (
     <section className="relative min-h-[90vh] w-full bg-neutral-50 text-neutral-800 pt-[90px]">
       <div className="px-6 flex items-center gap-4">
-        {/* ✅ Back button */}
         <button
           onClick={() => router.back()}
           className="flex items-center gap-1 text-sm text-gray-600 hover:text-black transition"
@@ -73,7 +72,7 @@ export default function Story({ params }: { params: { id: number } }) {
         </button>
 
         <SecondHeading
-          title={participant.name + " Interview"}
+          title={participant.name + " Interview"} // ✅ Updated to use 'name'
           textColor="text-neutral-800"
         />
       </div>
@@ -93,7 +92,8 @@ export default function Story({ params }: { params: { id: number } }) {
               )}
             </div>
             <div className="mt-4">
-              <h2 className="text-xl font-bold">{participant.participant}</h2>
+              <h2 className="text-xl font-bold">{participant.name}</h2>{" "}
+              {/* ✅ Updated to use 'name' */}
               <div className="flex items-center gap-2 mt-2">
                 <span>{participant.from}</span>
                 <svg

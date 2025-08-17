@@ -14,12 +14,22 @@ interface ProfilePosition {
   orbitIndex: number;
   angleOffset: number;
 }
+interface User {
+  id: number;
+  name: string;
+  image: string;
+  quote: string;
+  careerBefore: string;
+  careerAfter: string;
+  from: string;
+  summary: string;
+}
 
 interface Profile {
   id: number;
   imageUrl: string;
   position: ProfilePosition;
-  name: string;
+  user: User;
 }
 
 interface ContainerSize {

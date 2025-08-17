@@ -20,6 +20,7 @@ interface Participant {
   careerBefore: string;
   careerAfter: string;
   link: string;
+  summary: string;
 }
 
 export default function InterviewModal({
