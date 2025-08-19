@@ -131,6 +131,27 @@ export default function InterviewModal({
                     {participant.careerBefore} - {participant.careerAfter}
                   </p>
                   <div className="mt-4 space-y-2">
+                    <Link
+                      href={`/stories/${participantId}`}
+                      className="text-[#237A15] hover:underline flex items-center gap-1"
+                    >
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 2.5V13.5M8 2.5L4 6.5M8 2.5L12 6.5"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                      Read Interview Transcript
+                    </Link>
                     {participant.audio && (
                       <div className="mt-2 mb-4">
                         <AudioPlayer audioSource={participant.audio} />
@@ -159,27 +180,6 @@ export default function InterviewModal({
                       </svg>
                       View Thematic Analysis
                     </a>
-                    <Link
-                      href={`/stories/${participantId}`}
-                      className="text-[#237A15] hover:underline flex items-center gap-1"
-                    >
-                      <svg
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8 2.5V13.5M8 2.5L4 6.5M8 2.5L12 6.5"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                      View Interview
-                    </Link>
                   </div>
                 </div>
               </div>
